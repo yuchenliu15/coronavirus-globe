@@ -1,3 +1,5 @@
+//main javascript file
+
 import filter_data from './coronavirus_app.js' //when import and export, <script type='module'>
 fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=0')
     .then(res => {
@@ -6,7 +8,7 @@ fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=0')
     .then(data => {
         return filter_data(data); //return a list with objects {name, count}
     })
-    .then(data => { 
+    .then(data => {
         console.log(data); //pass array to google api
     });
 
