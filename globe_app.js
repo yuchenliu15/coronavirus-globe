@@ -1,3 +1,7 @@
+import fetch_coronavirus_data from './coronavirus_app.js';
+
+fetch_coronavirus_data();
+
 // Gen random data
 const N = 10;
 /* const gData = [...Array(N).keys()].map(() => ({
