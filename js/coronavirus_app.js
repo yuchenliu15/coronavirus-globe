@@ -21,7 +21,7 @@ function filter_data(data) {
             }
 
         }
-        else {
+        else if (item['cities'] !== null) {
             new_list.push({
                 'name': item['provinceEnglishName'],
                 'count': item['confirmedCount']
