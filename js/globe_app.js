@@ -20,7 +20,7 @@ fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=1')
                         return {
                             lat: data['results'][0]['geometry']['location']['lat'],
                             lng: data['results'][0]['geometry']['location']['lng'],
-                            size: 1,
+                            size: item['count'],
                         };
                     }
 
