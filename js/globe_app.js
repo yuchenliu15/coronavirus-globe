@@ -1,7 +1,7 @@
 //main javascript file
 
 import filter_data from './coronavirus_app.js' //when import and export, <script type='module'>
-const api_key = 'AIzaSyBfNl1mn143JBKW9uyBbZGqkbf_HFPXoW8';
+//don't upload api key to github
 
 fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=1')
     .then(res => {
@@ -14,7 +14,11 @@ fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=1')
         const country_location = data.map(async (item) => {
             const geocode_map = `https://maps.googleapis.com/maps/api/geocode/json?address=${item['name']}&key=${api_key}`;
             const promise_return = await fetch(geocode_map)
-                .then(res => res.json())
+
+                .then(res => {
+                    console.log(res.status);
+                    return res.json()
+                })
                 .then(data => {
                     if (data['results'][0] !== undefined) {
                         return {
@@ -22,6 +26,9 @@ fetch('http://lab.isaaclin.cn/nCoV/api/area?latest=1')
                             lng: data['results'][0]['geometry']['location']['lng'],
                             size: item['count'],
                         };
+                    }
+                    else {
+
                     }
 
                 });
