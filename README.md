@@ -4,9 +4,9 @@ COVID19 Globe Visualization Live is a visualizaton of COVID19 on a globe. Data p
 ## Built with
 - HTML/CSS/Javascript
 - Will use Node.js
-- Three-glob three.js library
+- Three-globe three.js library
 - Google Cloud Geocoding API
-- DXY-COVID-19-Crawler by BlankerL
+- DXY-COVID-19-Crawler by BlankerL (COVID19 data API)
 
 ## Things I learned
 - Deep understanding in asynchronous JavaScript programming (dealing with promises) in fetching and processing data
@@ -14,3 +14,4 @@ COVID19 Globe Visualization Live is a visualizaton of COVID19 on a globe. Data p
 - Parse and clean data
 
 ## Visuals
+![](readme_src/globe.png)
