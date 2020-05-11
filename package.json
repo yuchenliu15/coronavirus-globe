@@ -1,0 +1,23 @@
+{
+  "name": "coronavirus",
+  "version": "1.0.0",
+  "description": "COVID19 Globe Visualization Live is a visualizaton of COVID19 on a globe. Data points at each location can represent number of confirmed cases, deaths, or cured cases. The height of each data bar represents its proportion relative to all other locations. All data are updated every hour to maintain accuracy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuchenliu15/coronavirus-globe.git"
+  },
+  "author": "Yuchen Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuchenliu15/coronavirus-globe/issues"
+  },
+  "homepage": "https://github.com/yuchenliu15/coronavirus-globe#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
