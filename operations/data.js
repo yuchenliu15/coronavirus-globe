@@ -1,17 +1,19 @@
 const axios = require('axios');
 const {
-    filterData
+    filterData,
+    addLocation
 } = require('./processData');
+require('dotenv').config();
+const apiKey = process.env.GOOGLE_API;
+console.log(apiKey)
 
-const fs = require('fs'); //testing
 
 const getVirusData = async () => {
     try {
         const res = await axios.get('http://lab.isaaclin.cn/nCoV/api/area?latest=1');
-        fs.writeFile('testing.json', JSON.stringify(filterData(res)), (e)=> {
-            if (e)
-                console.error(e);
-        });
+        const filtered = filterData(res);
+        const result = await addLocation(filtered, apiKey);
+
     } catch (e) {
         console.error(e);
     }

@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 //filter full API data into a list with objects each with name of the area 
 //and the count of coronavirus discovered
 const filterData = (data) => {
@@ -10,6 +12,7 @@ const filterData = (data) => {
     data = data['data']['results'];
     const result = [];
     const max = getMaxCount(data);
+    const countIndexDigit = 5;
 
     data.forEach((item) => {
         if ('cities' in item && item['cities'] !== null) {
@@ -19,7 +22,7 @@ const filterData = (data) => {
                         result.push(
                             {
                                 'name': cityItem['cityEnglishName'],
-                                'count': cityItem['confirmedCount'] / max
+                                'count': (cityItem['confirmedCount'] / max).toFixed(countIndexDigit)
                             });
                     }
 
@@ -33,7 +36,7 @@ const filterData = (data) => {
         else if (item['cities'] !== null && item['provinceEnglishName'] !== undefined) {
             result.push({
                 'name': item['provinceEnglishName'],
-                'count': item['confirmedCount']
+                'count': (item['confirmedCount'] / max).toFixed(countIndexDigit)
             });
         }
     });
@@ -63,6 +66,31 @@ const getMaxCount = (data) => {
     return max;
 };
 
+const addLocation = async (data, apiKey) => {
+    const countryLocation = data.map(async (item) => {
+        const geocodeMap = encodeURI(`https://maps.googleapis.com/maps/api/geocode/json?address=${item['name']}&key=${apiKey}`);
+        const promise = await axios.get(geocodeMap)
+            .then(res => {
+                if(res) {
+                    //console.log(res)
+                    return {
+                        lat: res['data']['results'][0]['geometry']['location']['lat'],
+                        lng: res['data']['results'][0]['geometry']['location']['lng'],
+                        size: 1,
+                    };
+                }
+
+            })
+            .catch((e) => {
+                console.error(e);
+            });
+        return promise;
+    });
+
+    return await Promise.all(countryLocation);
+}
+
 module.exports = {
-    filterData
+    filterData,
+    addLocation
 };
