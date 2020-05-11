@@ -1,5 +1,3 @@
-
-
 //filter full API data into a list with objects each with name of the area 
 //and the count of coronavirus discovered
 const filterData = (data) => {
@@ -11,26 +9,7 @@ const filterData = (data) => {
     
     data = data['data']['results'];
     const result = [];
-    let max = 0;
-
-    data.forEach(item => {
-        if ('cities' in item && item['cities'] !== null) {
-            try {
-                item['cities'].forEach((city_item) => {
-                    max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
-                });
-            } catch (e) {
-                console.log('ERROR: ' + item)
-                console.error(e);
-            }
-
-        }
-        else if (item['cities'] !== null) {
-            max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
-        }
-    });
-
-    console.log(max);
+    const max = getMaxCount(data);
 
     data.forEach((item) => {
         if ('cities' in item && item['cities'] !== null) {
@@ -58,6 +37,28 @@ const filterData = (data) => {
 
     return result;
 }
+
+const getMaxCount = (data) => {
+    let max = 0;
+    data.forEach(item => {
+        if ('cities' in item && item['cities'] !== null) {
+            try {
+                item['cities'].forEach((city_item) => {
+                    max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
+                });
+            } catch (e) {
+                console.log('ERROR: ' + item)
+                console.error(e);
+            }
+
+        }
+        else if (item['cities'] !== null) {
+            max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
+        }
+    });
+
+    return max;
+};
 
 module.exports = {
     filterData

@@ -7,7 +7,7 @@ const getVirusData = async () => {
     try {
         const res = await axios.get('http://lab.isaaclin.cn/nCoV/api/area?latest=1');
         
-        console.log(filterData(res));
+        filterData(res);
     } catch (e) {
         console.error(e);
     }
