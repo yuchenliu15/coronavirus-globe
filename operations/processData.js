@@ -2,11 +2,11 @@
 //and the count of coronavirus discovered
 const filterData = (data) => {
 
-    if(data['data']['results'] === null || data['data']['results'] === undefined) {
+    if (data['data']['results'] === null || data['data']['results'] === undefined) {
         console.log('Empty data');
         return -1;
     }
-    
+
     data = data['data']['results'];
     const result = [];
     const max = getMaxCount(data);
@@ -14,12 +14,15 @@ const filterData = (data) => {
     data.forEach((item) => {
         if ('cities' in item && item['cities'] !== null) {
             try {
-                item['cities'].forEach((city_item) => {
-                    result.push(
-                        {
-                            'name': city_item['cityEnglishName'],
-                            'count': city_item['confirmedCount']/max
-                        });
+                item['cities'].forEach((cityItem) => {
+                    if (cityItem['cityEnglishName'] !== null && cityItem['cityEnglishName'] !== undefined) {
+                        result.push(
+                            {
+                                'name': cityItem['cityEnglishName'],
+                                'count': cityItem['confirmedCount'] / max
+                            });
+                    }
+
                 });
             } catch (e) {
                 console.log('ERROR: ' + item)
@@ -27,7 +30,7 @@ const filterData = (data) => {
             }
 
         }
-        else if (item['cities'] !== null) {
+        else if (item['cities'] !== null && item['provinceEnglishName'] !== undefined) {
             result.push({
                 'name': item['provinceEnglishName'],
                 'count': item['confirmedCount']
@@ -43,8 +46,8 @@ const getMaxCount = (data) => {
     data.forEach(item => {
         if ('cities' in item && item['cities'] !== null) {
             try {
-                item['cities'].forEach((city_item) => {
-                    max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
+                item['cities'].forEach((cityItem) => {
+                    max = cityItem['confirmedCount'] > max ? cityItem['confirmedCount'] : max;
                 });
             } catch (e) {
                 console.log('ERROR: ' + item)
@@ -53,7 +56,7 @@ const getMaxCount = (data) => {
 
         }
         else if (item['cities'] !== null) {
-            max = city_item['confirmedCount'] > max? city_item['confirmedCount']: max;
+            max = cityItem['confirmedCount'] > max ? cityItem['confirmedCount'] : max;
         }
     });
 
