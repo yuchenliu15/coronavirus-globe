@@ -29,4 +29,4 @@ class Location {
 }
 
 module.exports = db;
-module.exports.Location = Location; 
+module.exports.Location = Location;
