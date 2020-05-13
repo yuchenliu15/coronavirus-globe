@@ -15,3 +15,8 @@ COVID19 Globe Visualization Live is a visualizaton of COVID19 on a globe. Data p
 
 ## Visuals
 ![](readme_src/globe.png)
+
+## Notes
+- sending data to client side js for three.js to render
+    - events and sockets
+    - OR templates to pass data to html 
