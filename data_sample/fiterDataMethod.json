@@ -1,1674 +1,244 @@
-[
-    {
-        "name": "Nanjing",
-        "count": 0.0018474741254295875
-    },
-    {
-        "name": "Suzhou",
-        "count": 0.001728282246369614
-    },
-    {
-        "name": "Xuzhou",
-        "count": 0.0015693597409563163
-    },
-    {
-        "name": "Huainan",
-        "count": 0.0013111106696597071
-    },
-    {
-        "name": "Wuxi",
-        "count": 0.0010925922247164226
-    },
-    {
-        "name": "Changzhou",
-        "count": 0.0010131309720097738
-    },
-    {
-        "name": "Lianyungang",
-        "count": 0.000953535032479787
-    },
-    {
-        "name": "Nantong",
-        "count": 0.0007946125270664892
-    },
-    {
-        "name": "Taizhou",
-        "count": 0.0007350165875365025
-    },
-    {
-        "name": "Yancheng",
-        "count": 0.0005363634557698803
-    },
-    {
-        "name": "Yangzhou",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Suqian",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Zhenjiang",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Chaoyang District",
-        "count": 0.0014898984882496672
-    },
-    {
-        "name": "Haidian District",
-        "count": 0.0012713800433063827
-    },
-    {
-        "name": "Xicheng District",
-        "count": 0.0010528615983630982
-    },
-    {
-        "name": "Fengtai District",
-        "count": 0.0008542084665964759
-    },
-    {
-        "name": "Daxing District",
-        "count": 0.000774747213889827
-    },
-    {
-        "name": "Changping District",
-        "count": 0.0005760940821232047
-    },
-    {
-        "name": "Tongzhou District",
-        "count": 0.0003774409503565824
-    },
-    {
-        "name": "Fangshan District",
-        "count": 0.00031784501082659567
-    },
-    {
-        "name": "Dongcheng District",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Huairou District",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Miyun District",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Shijingshan District",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Mentougou District",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Yanqing District",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Shunyi District",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Area not defined",
-        "count": 0
-    },
-    {
-        "name": "Xi'an",
-        "count": 0.0023838375811994677
-    },
-    {
-        "name": "Ankang",
-        "count": 0.0005164981425932179
-    },
-    {
-        "name": "Hanzhong",
-        "count": 0.0005164981425932179
-    },
-    {
-        "name": "Xianyang",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Weinan",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Baoji",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Yan'an",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Tongchuan",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Shangluo",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Yulin",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Hancheng",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Yangling District in Xianyang",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Guangzhou",
-        "count": 0.010031983154214425
-    },
-    {
-        "name": "Shenzhen",
-        "count": 0.00917777468761795
-    },
-    {
-        "name": "Foshan",
-        "count": 0.001986531317666223
-    },
-    {
-        "name": "Zhuhai",
-        "count": 0.0020461272571962097
-    },
-    {
-        "name": "Dongguan",
-        "count": 0.001986531317666223
-    },
-    {
-        "name": "Zhongshan",
-        "count": 0.0013707066091896939
-    },
-    {
-        "name": "Huizhou",
-        "count": 0.0012316494169530583
-    },
-    {
-        "name": "Shantou",
-        "count": 0.0005164981425932179
-    },
-    {
-        "name": "Jiangmen",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Zhanjiang",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Zhaoqing",
-        "count": 0.0003973062635332446
-    },
-    {
-        "name": "Meizhou",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Yangjiang",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Maoming",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Qingyuan",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Jieyang",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Shaoguan",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Chaozhou",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Shanwei",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Heyuan",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Area not defined",
-        "count": 0
-    },
-    {
-        "name": "Qingdao",
-        "count": 0.001291245356483045
-    },
-    {
-        "name": "Jining",
-        "count": 0.00516498142593218
-    },
-    {
-        "name": "Linyi",
-        "count": 0.0009734003456564492
-    },
-    {
-        "name": "Jinan",
-        "count": 0.0009336697193031248
-    },
-    {
-        "name": "Yantai",
-        "count": 0.0009336697193031248
-    },
-    {
-        "name": "Weifang",
-        "count": 0.0008740737797731382
-    },
-    {
-        "name": "Weihai",
-        "count": 0.0007548819007131648
-    },
-    {
-        "name": "Liaocheng",
-        "count": 0.0007548819007131648
-    },
-    {
-        "name": "Dezhou",
-        "count": 0.0007350165875365025
-    },
-    {
-        "name": "Tai'an",
-        "count": 0.0006952859611831781
-    },
-    {
-        "name": "Zibo",
-        "count": 0.0005959593952998669
-    },
-    {
-        "name": "Zaozhuang",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Heze",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Rizhao",
-        "count": 0.00031784501082659567
-    },
-    {
-        "name": "Binzhou",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Harbin",
-        "count": 0.0052444426786388285
-    },
-    {
-        "name": "Mudanjiang",
-        "count": 0.0004966328294165557
-    },
-    {
-        "name": "Shuangyashan",
-        "count": 0.0010329962851864359
-    },
-    {
-        "name": "Suihua",
-        "count": 0.0009336697193031248
-    },
-    {
-        "name": "Jixi",
-        "count": 0.0009138044061264626
-    },
-    {
-        "name": "Qiqihar",
-        "count": 0.0008542084665964759
-    },
-    {
-        "name": "Daqing",
-        "count": 0.0005363634557698803
-    },
-    {
-        "name": "Qitaihe",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Jiamusi",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Heihe",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Hegang",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Daxinganling",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Yichun",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Wuhan",
-        "count": 1
-    },
-    {
-        "name": "Xiaogan",
-        "count": 0.06988617175549773
-    },
-    {
-        "name": "Huanggang",
-        "count": 0.0577484654045571
-    },
-    {
-        "name": "Jingzhou",
-        "count": 0.03138719481912632
-    },
-    {
-        "name": "Ezhou",
-        "count": 0.02769224656826715
-    },
-    {
-        "name": "Suizhou",
-        "count": 0.025963964321897536
-    },
-    {
-        "name": "Xiangyang",
-        "count": 0.02334174298257812
-    },
-    {
-        "name": "Huangshi",
-        "count": 0.020163292874312164
-    },
-    {
-        "name": "Yichang",
-        "count": 0.018494606567472534
-    },
-    {
-        "name": "Jingmen",
-        "count": 0.01843501062794255
-    },
-    {
-        "name": "Xianning",
-        "count": 0.016607401815689624
-    },
-    {
-        "name": "Shiyan",
-        "count": 0.013349490454717018
-    },
-    {
-        "name": "Xiantao",
-        "count": 0.011422555076580783
-    },
-    {
-        "name": "Tianmen",
-        "count": 0.009853195335624466
-    },
-    {
-        "name": "Enshi Tujia and Miao Autonomous Prefecture",
-        "count": 0.005006058920518882
-    },
-    {
-        "name": "Qianjiang",
-        "count": 0.003933332008979122
-    },
-    {
-        "name": "Shennongjia",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Jilin",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Changchun",
-        "count": 0.0009734003456564492
-    },
-    {
-        "name": "Siping",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Liaoyuan",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Yanbian",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Gongzhuling",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Tonghua",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Songyuan",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Meihekou",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Baicheng",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Hulunbuir",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Ordos",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Baotou",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Chifeng",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Linguolexi",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Bayannur",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Hohhot",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Tongliao",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Ulanqab",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Wuhai",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Xinganmeng",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Shenyang",
-        "count": 0.0005760940821232047
-    },
-    {
-        "name": "Dalian",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Jinzhou",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Huludao",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Dandong",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Panjin",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Fuxin",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Tieling",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Chaoyang",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Anshan",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Benxi",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Liaoyang",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Yingkou",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Fushun",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Pudong District",
-        "count": 0.001211784103776396
-    },
-    {
-        "name": "Baoshan District",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Minhang District",
-        "count": 0.0003774409503565824
-    },
-    {
-        "name": "Xuhui District",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Jing'an District",
-        "count": 0.00031784501082659567
-    },
-    {
-        "name": "Songjiang District",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Changning District",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Putuo District",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Yangpu District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Jiading District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Fengxian District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Hongkou District",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Huangpu District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Qingpu District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Jinshan District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Chongming District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Tangshan",
-        "count": 0.0011521881642464094
-    },
-    {
-        "name": "Cangzhou",
-        "count": 0.000953535032479787
-    },
-    {
-        "name": "Zhangjiakou",
-        "count": 0.0008144778402431514
-    },
-    {
-        "name": "Baoding",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Handan",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Langfang",
-        "count": 0.0005959593952998669
-    },
-    {
-        "name": "Shijiazhuang",
-        "count": 0.0005760940821232047
-    },
-    {
-        "name": "Xingtai",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Qinhuangdao",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Hengshui",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Chengde",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Jinzhong",
-        "count": 0.0007350165875365025
-    },
-    {
-        "name": "Taiyuan",
-        "count": 0.0004171715767099068
-    },
-    {
-        "name": "Yuncheng",
-        "count": 0.0003774409503565824
-    },
-    {
-        "name": "Datong",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Jincheng",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Changzhi",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Shuozhou",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Xinzhou",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Lüliang",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Yangquan",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Linfen",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Kunming",
-        "count": 0.0010528615983630982
-    },
-    {
-        "name": "Zhaotong",
-        "count": 0.0004966328294165557
-    },
-    {
-        "name": "Xishuangbanna",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Yuxi",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Qujing",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Dali",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Honghe",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Baoshan",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Lijiang",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Dehong",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Pu'er",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Chuxiong",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Wenshan",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Lincang",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Baodi District",
-        "count": 0.0011919187905997338
-    },
-    {
-        "name": "Hedong District",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Hebei District",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Beichen District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Nankai District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Heping District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Dongli District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Ninghe District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Hexi District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Xiqing District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Binhai New Area",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Wuqing District",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Hongqiao District",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Jinnan District",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Fuzhou",
-        "count": 0.0014303025487196806
-    },
-    {
-        "name": "Putian",
-        "count": 0.001112457537893085
-    },
-    {
-        "name": "Quanzhou",
-        "count": 0.0009336697193031248
-    },
-    {
-        "name": "Xiamen",
-        "count": 0.0006952859611831781
-    },
-    {
-        "name": "Ningde",
-        "count": 0.0005164981425932179
-    },
-    {
-        "name": "Zhangzhou",
-        "count": 0.0003973062635332446
-    },
-    {
-        "name": "Nanping",
-        "count": 0.0003973062635332446
-    },
-    {
-        "name": "Sanming",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Longyan",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Wenzhou",
-        "count": 0.010012117841037765
-    },
-    {
-        "name": "Hangzhou",
-        "count": 0.0035956216849758636
-    },
-    {
-        "name": "Ningbo",
-        "count": 0.00311885416873597
-    },
-    {
-        "name": "Taizhou",
-        "count": 0.0029003357237926855
-    },
-    {
-        "name": "Jinhua",
-        "count": 0.0010925922247164226
-    },
-    {
-        "name": "Jiaxing",
-        "count": 0.0009138044061264626
-    },
-    {
-        "name": "Shaoxing",
-        "count": 0.0008343431534198136
-    },
-    {
-        "name": "Shilifeng Prison",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Lishui",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Quzhou",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Huzhou",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Zhoushan",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Hefei",
-        "count": 0.003456564492739228
-    },
-    {
-        "name": "Bengbu",
-        "count": 0.0031784501082659567
-    },
-    {
-        "name": "Fuyang",
-        "count": 0.0030791235423826458
-    },
-    {
-        "name": "Bozhou",
-        "count": 0.002145453823079521
-    },
-    {
-        "name": "Anqing",
-        "count": 0.0016488209936629651
-    },
-    {
-        "name": "Lu'an",
-        "count": 0.0013707066091896939
-    },
-    {
-        "name": "Suzhou",
-        "count": 0.0008144778402431514
-    },
-    {
-        "name": "Ma'anshan",
-        "count": 0.0007548819007131648
-    },
-    {
-        "name": "Wuhu",
-        "count": 0.0006754206480065158
-    },
-    {
-        "name": "Tongling",
-        "count": 0.0005760940821232047
-    },
-    {
-        "name": "Huaibei",
-        "count": 0.0005562287689465425
-    },
-    {
-        "name": "Huainan",
-        "count": 0.0005363634557698803
-    },
-    {
-        "name": "Chizhou",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Chuzhou",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Huangshan",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Xuancheng",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Chengdu",
-        "count": 0.0032976419873259302
-    },
-    {
-        "name": "Garzê Tibetan Autonomous Prefecture",
-        "count": 0.001549494427779654
-    },
-    {
-        "name": "Dazhou",
-        "count": 0.0008343431534198136
-    },
-    {
-        "name": "Nanchong",
-        "count": 0.000774747213889827
-    },
-    {
-        "name": "Guang'an",
-        "count": 0.0005959593952998669
-    },
-    {
-        "name": "Luzhou",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Bazhong",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Mianyang",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Neijiang",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Deyang",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Suining",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Panzhihua",
-        "count": 0.00031784501082659567
-    },
-    {
-        "name": "Liangshan Yi Autonomous Prefecture",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Yibin",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Zigong",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Meishan",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Ya'an",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Guangyuan",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Ziyang",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Leshan",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Ngawa Tibetan and Qiang Autonomous Prefecture",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Wanzhou District",
-        "count": 0.002344106954846143
-    },
-    {
-        "name": "Jiangbei District",
-        "count": 0.0005562287689465425
-    },
-    {
-        "name": "Yunyang County",
-        "count": 0.0004966328294165557
-    },
-    {
-        "name": "Hechuan District",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Qijiang District",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Changshou District",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Fengjie County",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Jiulongpo District",
-        "count": 0.0004171715767099068
-    },
-    {
-        "name": "Kaizhou District",
-        "count": 0.0004171715767099068
-    },
-    {
-        "name": "Zhong County",
-        "count": 0.0004171715767099068
-    },
-    {
-        "name": "Yuzhong District",
-        "count": 0.0003973062635332446
-    },
-    {
-        "name": "Dianjiang County",
-        "count": 0.0003973062635332446
-    },
-    {
-        "name": "Tongnan District",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Yubei District",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Liangjiang New Area",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Nan'an District",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Shizhu Tujia Autonomous County",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Dazu District",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Wuxi County",
-        "count": 0.00027811438447327124
-    },
-    {
-        "name": "Tongliang District",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Fengdu County",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Wushan County",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Shapingba District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Bishan District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Rongchang District",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Dadukou District",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Banan District",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Fuling District",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Yongchuan District",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Jiangjin District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Liangping District",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Chongqing High-tech Zone",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Qianjiang Tujia and Miao Autonomous County",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Chengkou County",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Pengshui Miao and Tujia Autonomous County",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Wulong District",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Xiushan Tujia and Miao Autonomous County",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Youyang Tujia and Miao Autonomous County",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Wansheng District",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Guiyang",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Zunyi",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Bijie",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Qiannan",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Liupanshui",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Tongren",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Qiandongnan",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Anshun",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Qianxinan",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Changsha",
-        "count": 0.0048074057887522595
-    },
-    {
-        "name": "Yueyang",
-        "count": 0.003098988855559308
-    },
-    {
-        "name": "Shaoyang",
-        "count": 0.0020262619440195475
-    },
-    {
-        "name": "Changde",
-        "count": 0.0016289556804863028
-    },
-    {
-        "name": "Zhuzhou",
-        "count": 0.0015892250541329784
-    },
-    {
-        "name": "Loudi",
-        "count": 0.0015097638014263295
-    },
-    {
-        "name": "Yiyang",
-        "count": 0.0011919187905997338
-    },
-    {
-        "name": "Hengyang",
-        "count": 0.000953535032479787
-    },
-    {
-        "name": "Yongzhou",
-        "count": 0.0008740737797731382
-    },
-    {
-        "name": "Huaihua",
-        "count": 0.0007946125270664892
-    },
-    {
-        "name": "Chenzhou",
-        "count": 0.000774747213889827
-    },
-    {
-        "name": "Xiangtan",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Xiangxi",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Zhangjiajie",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Lanzhou",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Tianshui",
-        "count": 0.00023838375811994675
-    },
-    {
-        "name": "Pingliang",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Dingxi",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Gannan",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Baiyin",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Longnan",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Qingyang",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Linxia",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Zhangye",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Jinchang",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Xinyang",
-        "count": 0.005443095810405451
-    },
-    {
-        "name": "Zhengzhou",
-        "count": 0.00311885416873597
-    },
-    {
-        "name": "Nanyang",
-        "count": 0.003098988855559308
-    },
-    {
-        "name": "Zhumadian",
-        "count": 0.00276127853155605
-    },
-    {
-        "name": "Shangqiu",
-        "count": 0.0018077434990762628
-    },
-    {
-        "name": "Zhoukou",
-        "count": 0.0015097638014263295
-    },
-    {
-        "name": "Pingdingshan",
-        "count": 0.0011521881642464094
-    },
-    {
-        "name": "Xinxiang",
-        "count": 0.001132322851069747
-    },
-    {
-        "name": "Anyang",
-        "count": 0.0010528615983630982
-    },
-    {
-        "name": "Xuchang",
-        "count": 0.000774747213889827
-    },
-    {
-        "name": "Luohe",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Jiaozuo",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Luoyang",
-        "count": 0.0006158247084765291
-    },
-    {
-        "name": "Kaifeng",
-        "count": 0.0005164981425932179
-    },
-    {
-        "name": "Hebi",
-        "count": 0.0003774409503565824
-    },
-    {
-        "name": "Puyang",
-        "count": 0.0003377103240032579
-    },
-    {
-        "name": "Sanmenxia",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Jiyuan",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Nanchang",
-        "count": 0.0045690220306323125
-    },
-    {
-        "name": "Xinyu",
-        "count": 0.00258249071296609
-    },
-    {
-        "name": "Shangrao",
-        "count": 0.0024434335207294544
-    },
-    {
-        "name": "Jiujiang",
-        "count": 0.002344106954846143
-    },
-    {
-        "name": "Yichun",
-        "count": 0.0021057231967261964
-    },
-    {
-        "name": "Ganzhou",
-        "count": 0.0015097638014263295
-    },
-    {
-        "name": "Fuzhou",
-        "count": 0.0014303025487196806
-    },
-    {
-        "name": "Pingxiang",
-        "count": 0.0006555553348298536
-    },
-    {
-        "name": "Ji'an",
-        "count": 0.0004370368898865691
-    },
-    {
-        "name": "Yingtan",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Jingdezhen",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Ganjiang New District",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Nanning",
-        "count": 0.0010925922247164226
-    },
-    {
-        "name": "Beihai",
-        "count": 0.0008740737797731382
-    },
-    {
-        "name": "Guilin",
-        "count": 0.0006356900216531913
-    },
-    {
-        "name": "Hechi",
-        "count": 0.0005562287689465425
-    },
-    {
-        "name": "Liuzhou",
-        "count": 0.0004767675162398935
-    },
-    {
-        "name": "Fangchenggang",
-        "count": 0.0003774409503565824
-    },
-    {
-        "name": "Yulin",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Laibin",
-        "count": 0.00021851844494328454
-    },
-    {
-        "name": "Qinzhou",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Guigang",
-        "count": 0.00015892250541329784
-    },
-    {
-        "name": "Wuzhou",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Hezhou",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Baise",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Haikou",
-        "count": 0.000774747213889827
-    },
-    {
-        "name": "Danzhou",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Wanning",
-        "count": 0.00025824907129660897
-    },
-    {
-        "name": "Chengmai County",
-        "count": 0.00017878781858996008
-    },
-    {
-        "name": "Changjiang Li Autonomous County",
-        "count": 0.00013905719223663562
-    },
-    {
-        "name": "Qionghai",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Lingao County",
-        "count": 0.00011919187905997338
-    },
-    {
-        "name": "Lingshui Li Autonomous County",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Ding'an County",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Wenchang",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Dongfang",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Baoting Li and Miao Autonomous County",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Ledong Li Autonomous County",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Qiongzhong Li and Miao Autonomous County",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Sanya",
-        "count": 0.0010727269115397605
-    },
-    {
-        "name": "Yinchuan",
-        "count": 0.0007151512743598403
-    },
-    {
-        "name": "Wuzhong",
-        "count": 0.0005562287689465425
-    },
-    {
-        "name": "Guyuan",
-        "count": 0.00009932656588331115
-    },
-    {
-        "name": "Zhongwei",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Ningdong County",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Shizuishan",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Urumqi",
-        "count": 0.0004569022030632313
-    },
-    {
-        "name": "Yili",
-        "count": 0.00035757563717992016
-    },
-    {
-        "name": "Xinjiang Production and Construction Corps 4th Division",
-        "count": 0.0001986531317666223
-    },
-    {
-        "name": "Shihezi, Xinjiang Production and Construction Corps 8th Division",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Xinjiang Production and Construction Corps 9th Division",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Changji",
-        "count": 0.00007946125270664892
-    },
-    {
-        "name": "Turpan",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Bayingolin Mongol Autonomous Prefecture",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Xinjiang Production and Construction Corps 12th Division",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Wujiaqu, Xinjiang Production and Construction Corps 5th Division",
-        "count": 0.00003973062635332446
-    },
-    {
-        "name": "Xinjiang Production and Construction Corps 7th Division",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Akesu",
-        "count": 0.00001986531317666223
-    },
-    {
-        "name": "Xining",
-        "count": 0.00029797969764993346
-    },
-    {
-        "name": "Haibei",
-        "count": 0.00005959593952998669
-    },
-    {
-        "name": "Lhasa",
-        "count": 0.00001986531317666223
+Error: TypeError: Cannot read property 'geometry' of undefined:
+{
+  status: 200,
+  statusText: 'OK',
+  headers: {
+    'content-type': 'application/json; charset=UTF-8',
+    date: 'Mon, 25 May 2020 22:20:41 GMT',
+    pragma: 'no-cache',
+    expires: 'Fri, 01 Jan 1990 00:00:00 GMT',
+    'cache-control': 'no-cache, must-revalidate',
+    'access-control-allow-origin': '*',
+    server: 'mafe',
+    'x-xss-protection': '0',
+    'x-frame-options': 'SAMEORIGIN',
+    'server-timing': 'gfet4t7; dur=237',
+    'alt-svc': 'h3-27=":443"; ma=2592000,h3-25=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+    'accept-ranges': 'none',
+    vary: 'Accept-Language,Accept-Encoding',
+    connection: 'close',
+    'transfer-encoding': 'chunked'
+  },
+  config: {
+    url: 'https:/maps.googleapis.com/maps/api/geocode/json?address=Xinjiang%20Production%20and%20Construction%20Corps%207th%20Division&key=AIzaSyC3U7QYCfOtVBsXExOQ-KsL74II3OPuZDM',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.19.2'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 6,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'maps.googleapis.com',
+      _readableState: [ReadableState],
+      readable: false,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: null,
+      [Symbol(asyncId)]: 9552,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kBytesRead)]: 759,
+      [Symbol(kBytesWritten)]: 274,
+      [Symbol(connect-options)]: [Object]
+    },
+    connection: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'maps.googleapis.com',
+      _readableState: [ReadableState],
+      readable: false,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(res)]: null,
+      [Symbol(asyncId)]: 9552,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kBytesRead)]: 759,
+      [Symbol(kBytesWritten)]: 274,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'GET /maps/api/geocode/json?address=Xinjiang%20Production%20and%20Construction%20Corps%207th%20Division&key=AIzaSyC3U7QYCfOtVBsXExOQ-KsL74II3OPuZDM HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.19.2\r\n' +
+      'Host: maps.googleapis.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object],
+      requests: {},
+      sockets: {},
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxCachedSessions: 100,
+      _sessionCache: [Object]
+    },
+    socketPath: undefined,
+    method: 'GET',
+    path: '/maps/api/geocode/json?address=Xinjiang%20Production%20and%20Construction%20Corps%207th%20Division&key=AIzaSyC3U7QYCfOtVBsXExOQ-KsL74II3OPuZDM',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'https://maps.googleapis.com/maps/api/geocode/json?address=Xinjiang%20Production%20and%20Construction%20Corps%207th%20Division&key=AIzaSyC3U7QYCfOtVBsXExOQ-KsL74II3OPuZDM',
+      redirects: []
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'https://maps.googleapis.com/maps/api/geocode/json?address=Xinjiang%20Production%20and%20Construction%20Corps%207th%20Division&key=AIzaSyC3U7QYCfOtVBsXExOQ-KsL74II3OPuZDM'
+    },
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
     }
-]
+  },
+  data: { results: [], status: 'ZERO_RESULTS' }
+}

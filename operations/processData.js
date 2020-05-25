@@ -83,31 +83,33 @@ const getGeoData = async (name) => {
 const throttleGetGeoData = limiter.wrap(getGeoData);
 
 const addLocation = async (data) => {
-    let fails = 0;
+
     const countryLocation = data.map(async (item) => {
-        const promise = await throttleGetGeoData(item['name'])
+        const promise = await getGeoData(item['name'])
             .then(res => {
                 if(res.status === 200) {
                     //console.log(res)
-                    return {
-                        name: item['name'],
-                        lat: res['data']['results'][0]['geometry']['location']['lat'],
-                        lng: res['data']['results'][0]['geometry']['location']['lng'],
-                        size: item['count'],
-                    };
+                    if(res['data']['results'].length !== 0) {
+                        return {
+                            name: item['name'],
+                            lat: res['data']['results'][0]['geometry']['location']['lat'],
+                            lng: res['data']['results'][0]['geometry']['location']['lng'],
+                            size: item['count'],
+                        };
+                    }
                 } 
+                else {
+                    console.log(res)
+                }
 
             })
             .catch((e) => {
-                fails++;
-
                 console.error(e);
             });
         return promise;
     });
 
     const all =  await Promise.all(countryLocation);
-    console.log('FAILLLLLLLLLLLLLLLLLLLLL' + fails);
     return all;
 }
 
