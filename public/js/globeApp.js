@@ -1,7 +1,7 @@
 fetch('/data')
     .then(res=>res.json())
     .then(data => {
-        console.log(data)
+        console.log("data length"+data.length)
         const Globe = new ThreeGlobe()
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
             .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')

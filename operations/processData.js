@@ -46,6 +46,12 @@ const filterData = (data) => {
                 'count': parseFloat((item['confirmedCount'] / max).toFixed(countIndexDigit))
             });
         }
+        else {
+            result.push({
+                'name': item['countryEnglishName'],
+                'count': parseFloat((item['confirmedCount'] / max).toFixed(countIndexDigit))
+            });
+        }
     });
 
     return result;
@@ -83,7 +89,7 @@ const getGeoData = async (name) => {
 const throttleGetGeoData = limiter.wrap(getGeoData);
 
 const addLocation = async (data) => {
-
+    console.log('data length: ' + data.length)
     const countryLocation = data.map(async (item) => {
         const promise = await throttleGetGeoData(item['name'])
             .then(res => {
