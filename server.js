@@ -5,20 +5,17 @@ const Location = require('./operations/database').Location;
 
 const executeTime = 1440 * 60 * 1000;
 
-const updateDB = () => {
-    getVirusData()
-        .then(result => {
-            result.forEach(data => {
-                console.log(data)
-                //Location.create(data.name, data.lat, data.lng, data.size);
-            });
-        })
-        .then(()=>{
-            console.log('success data')
-        })
-        .catch((e)=>{
-            console.error(e);
-        });
+const forEachData = (result) => {
+    result.forEach((data)=>{
+        if(data) {
+            Location.create(data, []);
+        }
+    });
+}
+
+const updateDB = async () => {
+    const data = await getVirusData();
+    forEachData(data);
 }
 updateDB();
 setInterval(updateDB, executeTime);
@@ -27,7 +24,7 @@ app.get('/', (req, res) => {
 
     Location.all((error,data)  => {
         if(error) console.error(error)
-        console.log(data);
+        res.json(data);
     });
 
 });

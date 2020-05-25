@@ -18,7 +18,7 @@ class Location {
 
     static create(data, callback) {
         const sql = 'REPLACE INTO locations(name,lat,lng,size) VALUES (?,?,?,?)';
-        db.run(sql, data.lat, data.lng, data.size, callback);
+        db.run(sql, data.name, data.lat, data.lng, data.size, callback);
     }
 }
 
