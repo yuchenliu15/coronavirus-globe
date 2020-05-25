@@ -74,9 +74,10 @@ const addLocation = async (data, apiKey) => {
                 if(res) {
                     //console.log(res)
                     return {
+                        name: item['name'],
                         lat: res['data']['results'][0]['geometry']['location']['lat'],
                         lng: res['data']['results'][0]['geometry']['location']['lng'],
-                        size: 1,
+                        size: item['count'],
                     };
                 }
 

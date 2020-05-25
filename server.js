@@ -4,10 +4,10 @@ const getVirusData = require('./operations/data');
 
 app.get('/', (req, res) => {
 
-    // getVirusData()
-    //     .then(result => {
-    //         res.send(result);
-    //     });
+    getVirusData()
+        .then(result => {
+            res.send(result);
+        });
 });
 
 app.listen(process.env.PORT, () => {

@@ -4,8 +4,8 @@ const db = new sqlite3.Database(dbName);
 
 db.serialize(() => {
     const sql = `
-        CREATE TABLE IF NOT EXIST locations
-        (lat REAL PRIMARY KEY, lng REAL, size INTEGER)
+        CREATE TABLE IF NOT EXISTS locations
+        (lat REAL, lng REAL, size INTEGER, PRIMARY KEY (lat, lng))
     `;
     db.run(sql);
 });
@@ -17,7 +17,7 @@ class Location {
     }
 
     static create(data, callback) {
-        const sql = 'INSERT INTO locations(lat,lng,size) VALUES (?,?,?)';
+        const sql = 'REPLACE INTO locations(lat,lng,size) VALUES (?,?,?)';
         db.run(sql, data.lat, data.lng, data.size, callback);
     }
 
@@ -28,5 +28,17 @@ class Location {
 
 }
 
+Location.create({lat:3,lng:3,size:10},()=>{
+
+})
+Location.create({lat:3,lng:4,size:10},()=>{
+
+})
+Location.create({lat:4,lng:4,size:2},()=>{
+
+})
+Location.all((e, data)=>{
+    console.log(data);
+})
 module.exports = db;
 module.exports.Location = Location;
