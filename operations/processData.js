@@ -85,7 +85,7 @@ const throttleGetGeoData = limiter.wrap(getGeoData);
 const addLocation = async (data) => {
 
     const countryLocation = data.map(async (item) => {
-        const promise = await getGeoData(item['name'])
+        const promise = await throttleGetGeoData(item['name'])
             .then(res => {
                 if(res.status === 200) {
                     //console.log(res)
@@ -109,8 +109,7 @@ const addLocation = async (data) => {
         return promise;
     });
 
-    const all =  await Promise.all(countryLocation);
-    return all;
+    return await Promise.all(countryLocation);
 }
 
 module.exports = {
