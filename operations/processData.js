@@ -22,7 +22,7 @@ const filterData = (data) => {
                         result.push(
                             {
                                 'name': cityItem['cityEnglishName'],
-                                'count': (cityItem['confirmedCount'] / max).toFixed(countIndexDigit)
+                                'count': parseFloat((cityItem['confirmedCount'] / max).toFixed(countIndexDigit))
                             });
                     }
 
@@ -36,7 +36,7 @@ const filterData = (data) => {
         else if (item['cities'] !== null && item['provinceEnglishName'] !== undefined) {
             result.push({
                 'name': item['provinceEnglishName'],
-                'count': (item['confirmedCount'] / max).toFixed(countIndexDigit)
+                'count': parseFloat((item['confirmedCount'] / max).toFixed(countIndexDigit))
             });
         }
     });
