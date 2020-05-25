@@ -1,4 +1,6 @@
 const axios = require('axios');
+require('dotenv').config();
+const apiKey = process.env.GOOGLE_API;
 
 //filter full API data into a list with objects each with name of the area 
 //and the count of coronavirus discovered
@@ -66,12 +68,19 @@ const getMaxCount = (data) => {
     return max;
 };
 
-const addLocation = async (data, apiKey) => {
+const getGeoData = async (name) => {
+    
+    const url = encodeURI(`https://maps.googleapis.com/maps/api/geocode/json?address=${name}&key=${apiKey}`);
+    return axios.get(url);
+
+}
+
+const addLocation = async (data) => {
+    let fails = 0;
     const countryLocation = data.map(async (item) => {
-        const geocodeMap = encodeURI(`https://maps.googleapis.com/maps/api/geocode/json?address=${item['name']}&key=${apiKey}`);
-        const promise = await axios.get(geocodeMap)
+        const promise = await getGeoData(item['name'])
             .then(res => {
-                if(res) {
+                if(res.status === 200) {
                     //console.log(res)
                     return {
                         name: item['name'],
@@ -79,16 +88,21 @@ const addLocation = async (data, apiKey) => {
                         lng: res['data']['results'][0]['geometry']['location']['lng'],
                         size: item['count'],
                     };
+                } else {
                 }
 
             })
             .catch((e) => {
+                fails++;
+
                 console.error(e);
             });
         return promise;
     });
 
-    return await Promise.all(countryLocation);
+    const all =  await Promise.all(countryLocation);
+    console.log('FAILLLLLLLLLLLLLLLLLLLLL' + fails);
+    return all;
 }
 
 module.exports = {
