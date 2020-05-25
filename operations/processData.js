@@ -1,6 +1,11 @@
 const axios = require('axios');
 require('dotenv').config();
+const Bottleneck = require('bottleneck');
+
 const apiKey = process.env.GOOGLE_API;
+const limiter = new Bottleneck({
+    minTime: 200
+  });
 
 //filter full API data into a list with objects each with name of the area 
 //and the count of coronavirus discovered
@@ -75,10 +80,12 @@ const getGeoData = async (name) => {
 
 }
 
+const throttleGetGeoData = limiter.wrap(getGeoData);
+
 const addLocation = async (data) => {
     let fails = 0;
     const countryLocation = data.map(async (item) => {
-        const promise = await getGeoData(item['name'])
+        const promise = await throttleGetGeoData(item['name'])
             .then(res => {
                 if(res.status === 200) {
                     //console.log(res)
@@ -88,8 +95,7 @@ const addLocation = async (data) => {
                         lng: res['data']['results'][0]['geometry']['location']['lng'],
                         size: item['count'],
                     };
-                } else {
-                }
+                } 
 
             })
             .catch((e) => {
