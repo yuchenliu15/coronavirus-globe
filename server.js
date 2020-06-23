@@ -19,7 +19,9 @@ const updateDB = async () => {
     const data = await getVirusData();
     forEachData(data);
 }
-updateDB();
+if(process.env.NODE_ENV === "production") {
+    updateDB(); //get data as soon as start running
+}
 setInterval(updateDB, executeTime);
 
 app.use('/public', express.static(path.join(__dirname + '/public')));
