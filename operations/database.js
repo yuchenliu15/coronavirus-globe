@@ -1,4 +1,5 @@
 const knex = require('knex');
+const e = require('express');
 
 const db = knex({
     client: 'sqlite3',
@@ -9,13 +10,23 @@ const db = knex({
 });
 
 module.exports = () => {
-    return db.schema.createSchemaIfNotExists('locations', table => {
-        table.text('name').primary();
-        table.real('lat');
-        table.real('lng');
-        table.float('size');
-    })
+    return db.schema.hasTable('locations')
+        .then(exists => {
+            if (!exists) {
+                return db.schema.createTable('locations', table => {
+                    table.text('name').primary();
+                    table.real('lat');
+                    table.real('lng');
+                    table.float('size');
+                });
+            }
+            else {
+                return ; //promise success signal
+            }
+
+        });
 };
+
 module.exports.Location = {
     all(callback) {
         return db('locations').select().asCallback(callback);
@@ -27,7 +38,7 @@ module.exports.Location = {
             lng: data.lng,
             size: data.size
         })
-        .asCallback(callback);
+            .asCallback(callback);
     }
 
 };
